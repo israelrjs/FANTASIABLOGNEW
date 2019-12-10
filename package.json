@@ -1,0 +1,23 @@
+{
+  "name": "FANTASIABLOGNEW",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelrjs/FANTASIABLOGNEW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israelrjs/FANTASIABLOGNEW/issues"
+  },
+  "homepage": "https://github.com/israelrjs/FANTASIABLOGNEW#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
