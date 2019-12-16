@@ -13,16 +13,24 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/b05993062b.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Compiled and minified JavaScript -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <link rel="stylesheet" href="article.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Blog</title>
   </head>
-
   <body>
+    <!-- Navbar -->
     <nav
       class="navbar navbar-expand-lg navbar-light border border-dark border-top-0 "
     >
@@ -34,7 +42,7 @@
 
           <li class="nav-item">
             <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
+              >Home </a
             >
           </li>
           <li class="nav-item dropdown">
@@ -134,8 +142,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html"
-              >About <span class="sr-only">(current)</span></a
-            >
+              >About </a>
           </li>
           <!-- Search Icon -->
           <!-- <i
@@ -146,76 +153,48 @@
       </div>
     </nav>
 
-    <!-- Article Title -->
-    <h1>The Power of Manifestation and How to Conquer It</h1>
-    <h6 class="text-center">
-      Article by Fantasia Wesley - Sunday, December 15th, 2019 6:30PM CST
-    </h6>
-    <!-- Article Content -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <p>
-          The Power of Manifestation… What do you think of when you hear that?
-          Well, the definition of Manifestation “an event, action, or object
-          that clearly shows or embodies something, especially a theory or an
-          abstract idea.” – Oxford Dictionary -
-          https://www.lexico.com/en/definition/manifestation
-        </p>
-        <br />
-        <img id="a1pic" src="A1.png" alt="" />
-        <br />
-        <br />
-        <p>
-          In other words, you have an idea, you think the idea through, and you
-          execute the idea to the best extent. I have a personal experience that
-          I had witnessed myself of someone using the power of manifestation to
-          their best potential and ended up exactly where they wanted to be. A
-          man by the name of JP Rand- https://www.instagram.com/jp_rand/ became
-          the legendary; Lil Kim, one of the best female rapper’s hairstylist. I
-          wanted to hear more about his story, so when I was in an internship
-          with the radio station Hot 103.3 Jamz, I had the opportunity to bring
-          him on for the podcast “People Places Things Podcast” with host Shay
-          Moore. When he came, he brought up that he manifested the moments that
-          he now has as a celebrity hairstylist. JP brought up multiple points
-          on how he used to dream of doing Lil Kim’s hair. JP than began to work
-          as hard as he could to get that dream to become a reality. He said
-          “Growing up, I did not know much about her. My age group was Nicki
-          Minaj, you know so when the comparison thing came about, and then I
-          had like older siblings. So, they told me… I started to engage with
-          her, she was hard.” He also said that he would start imagining himself
-          doing Lil Kim’s hair. He mentioned that he would say “I am going to do
-          Lil Kim’s hair” and before he knew it, he was on a plane headed to
-          her.
-        </p>
-        <br />
-        <p>
-          It’s all within your mental capacity and capabilities. It is also
-          referred to as the Self-Fulfilling Prophecy. You are able to predict
-          your outcomes, simply because you believe it. You have to start
-          believing in yourself first. When you believe in yourself, you won’t
-          need additional acceptance or approval from anyone else. You have to
-          believe that you will be in that position and speak it into existence.
-          I say all the time that I will be the next Oprah Winfrey but be myself
-          while doing it. Obviously, I can’t become Oprah, but looking to her as
-          inspiration and studying the different methods of success, I do
-          believe that I can do it. I will do it. The next step is to treat
-          yourself as if you are in that position already. Don’t wait to become
-          happy once you are in that position, then that would mean you wouldn’t
-          be happy at all to try. You need to start now. Appreciate the position
-          you are in. Own it. But work harder also. You need to understand that
-          working hard is the only way you can and will succeed, meaning
-          multiple sacrifices. I don’t mean sell your soul and sacrifice your
-          family members. I’m talking about the sacrifice that prevents you from
-          doing what you want and doing what you need. You need to understand
-          that it will contain hardship along the way, but it’ll all be worth
-          it. Sometimes may be fun, while others can be difficult to pass. But
-          it will all pass and all the hard work you put into it will work in
-          your favor. Believe in yourself, and do not think about what others
-          may think.
-        </p>
+  
+        <div id="social" class="jumbotron jumbotron-fluid">
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-youtube"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <div
+            class="embedsocial-instagram"
+            data-ref="8ba13665173aa6932c8a6a487517a15073994739"
+          ></div>
+          <script>
+            (function(d, s, id) {
+              var js;
+              if (d.getElementById(id)) {
+                return;
+              }
+              js = d.createElement(s);
+              js.id = id;
+              js.src = "https://embedsocial.com/embedscript/in.js";
+              d.getElementsByTagName("head")[0].appendChild(js);
+            })(document, "script", "EmbedSocialInstagramScript");
+          </script>
+        </div>
       </div>
     </div>
 
-    <script src="js/scripts.js"></script>
+    <!-- Logic Link -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="logic.js"></script>
   </body>
 </html>

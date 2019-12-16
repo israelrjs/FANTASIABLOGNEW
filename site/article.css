@@ -10,15 +10,21 @@
 }
 #brand {
   font-family: "Rock Salt", cursive;
-  font-size: 40px;
-  margin-right: 150px;
+  font-size: 30px;
+  margin-right: 100px;
+  color: rgb(192, 13, 13);
 }
 .nav-link {
   font-family: "Calistoga", cursive;
+  font-size: large;
+  margin-right: 30px;
 }
 #a1pic {
   width: 100%;
 }
 h1 {
   text-align: center;
+}
+#a2pic {
+  margin-left: 25%;
 }
