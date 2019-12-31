@@ -8,11 +8,30 @@
   margin-bottom: 1rem !important;
   margin-top: 10px;
 }
+
 #brand {
   font-family: "Rock Salt", cursive;
   font-size: 30px;
   margin-right: 100px;
   color: rgb(192, 13, 13);
+}
+@media screen and (max-width: 414px) {
+  #brand {
+    font-family: "Rock Salt", cursive;
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(192, 13, 13);
+  }
+  .bd-example {
+    height: 500px;
+    width: 400px;
+  }
+  #trending.jumbotron {
+    width: 410px;
+  }
+  #social {
+    width: 400px;
+  }
 }
 .nav-link {
   font-family: "Calistoga", cursive;
