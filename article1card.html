@@ -1,320 +1,274 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Rock+Salt|Calistoga&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
 
-    <!-- Compiled and minified JavaScript -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Calistoga&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
 
-    <link rel="stylesheet" href="article.css" />
-    <title>Blog</title>
-  </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-  <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light border border-dark border-top-0 "
-    >
-      <a id="brand" class="navbar-brand" href="#">Rebellious Attitude</a>
+  <link rel="stylesheet" href="article.css" />
+  <title>Blog</title>
+</head>
 
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"></li>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light border border-dark border-top-0 ">
+    <a id="brand" class="navbar-brand" href="#">Rebellious Attitude</a>
 
-          <li class="nav-item">
-            <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Local
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Subs</a>
-              <a class="dropdown-item" href="#">Item</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Item</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Lifestyle
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Item</a>
-              <a class="dropdown-item" href="#">Item</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Item</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Food
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Item</a>
-              <a class="dropdown-item" href="#">Item</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Item</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Music
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Item</a>
-              <a class="dropdown-item" href="#">Item</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Item</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Fashion
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Item</a>
-              <a class="dropdown-item" href="#">Item</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Item</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html"
-              >About <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <!-- Search Icon -->
-          <!-- <i
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"></li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Local
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Subs</a>
+            <a class="dropdown-item" href="#">Item</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Item</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Lifestyle
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Item</a>
+            <a class="dropdown-item" href="#">Item</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Item</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Food
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Item</a>
+            <a class="dropdown-item" href="#">Item</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Item</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Music
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Item</a>
+            <a class="dropdown-item" href="#">Item</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Item</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Fashion
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Item</a>
+            <a class="dropdown-item" href="#">Item</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Item</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- Search Icon -->
+        <!-- <i
             class="fas fa-search"
             style="font-size:48px;color:rgb(192, 13, 13)"
           ></i> -->
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Article Title -->
-    <h1>Album of the Month: December</h1>
-    <h6 class="text-center">
-      December 24th, 2019 9:30AM CST Article by Fantasia Wesley
-    </h6>
-    <!-- Article Content -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h2 style="text-align: center;">BUBBA- Kaytranada</h2>
-
-        <br />
-        <img src="k.png" style="height: 70%; margin-left: 25%;" />
-        <br />
-        <br />
-        <p style="line-height: 3;">
-          This was a hard pick. I was contemplating on if it should be BUBBA or
-          Please Excuse Me For Being Antisocial. The song was just the vibe I
-          needed for this cold and chilly winter in Kansas. I have been able to
-          thoroughly enjoy this album with no skips or no complaints. The song
-          transitions are golden, blending in with the next song in que to play.
-          I love the concept, and the feeling the album gives me. It’s not just
-          music, it’s a mood too. Kaytranada has always given us positive
-          up-tempo music, but the R&B route gives such a vibe. I’m not saying he
-          hasn’t done R&B music before, but not as much as this current album.
-          He has done great collabs with R&B artist that I loved so much, so it
-          was greatly appreciated. I loved the EP Kaytranada released in 2018
-          titled Nothin Like U, Chances. Also, Got it Good from his album 99.9%
-          is lovely.
-        </p>
-        <br />
-        <p style="line-height: 3;">
-          The first song that I listened to by Kaytranada was At All, and I was
-          hooked. I had to find out more about this man. Searching on Sound
-          Cloud, iTunes, (at the time Apple Music was not available) Spotify,
-          and YouTube. I tried to listen every song that he released. It was an
-          experience of music that I never imagined to be so good.
-        </p>
-
-        <h2 style="text-align: center;">Songs</h2>
-        <br />
-        <br />
-
-        <h4>DO IT</h4>
-        <p style="line-height: 3;">
-          It gives me Vice City Grand Theft Auto soundtrack vibes. Driving down
-          the California streets like a normal civilian in your freshly stolen
-          car (grand theft auto people, the game). The only bummer is how short
-          the intro is, but it’s no complaints here. I guess less is more.
-        </p>
-        <h4>2 The Music</h4>
-        <p style="line-height: 3;">
-          Iman Omari has defined R&B and soul to its entirety. This song has
-          definitely been stuck in my head since the album came out. Iman
-          Omari’s raspy but sly voice has this characteristic of being free and
-          at liberty. The bass in the song (the actual instrument) added that
-          flare in the song that made it perfect. The entire song is perfect,
-          especially if you are looking forward to having a good time. This song
-          probably gives others the best memories because it makes you
-          appreciate your surroundings. You’re not as upset as you thought you
-          were. Then the transition into the second portion of the song is just
-          Godly. I kid you not.
-        </p>
-        <h4>Go DJ</h4>
-        <p style="line-height: 3;">
-          I can see a rhythm skater dancing to this song, doing the most
-          outrageous dance moves in my imagination. I can see this being a song
-          Greek Organizations stroll to or a line dance.
-        </p>
-        <h4>Gray Area</h4>
-        <p style="line-height: 3;">
-          This song is catchy; it makes you want to bounce. I knew the voice
-          sounded familiar and come to find out it was Mick Jenkins. I don’t
-          know the exact terminologies of the sound effects in the background,
-          but it all harmonizes perfectly together. I love the pauses he takes
-          in the song; it gives more emphasis.
-        </p>
-        <h4>Puff Lah</h4>
-        <p style="line-height: 3;">
-          MY FAVORITE SONG ON THE ALBUM. I just love this song so much, I want
-          to rap on it, sing on it, dance on it, what ever on it. It’s just a
-          perfect representation of chilling.
-        </p>
-        <h4>10%</h4>
-        <p style="line-height: 3;">
-          You keep on takin from me, but where’s my 10%? Kali Uchis SNAPPED on
-          this record. This is a slap. Do I understand the song? Not really, but
-          it’s all good.
-        </p>
-        <h4>Need It</h4>
-        <p style="line-height: 3;">
-          This makes me want to do Zaouli. The second-best song on this album.
-          This is simply a bop. Again, the song is soooo short, I wish this one
-          had some length to it.
-        </p>
-        <h4>Taste</h4>
-        <p style="line-height: 3;">
-          VanJess came through with message! If you want a taste, bring
-          something to the plate! She hit all the notes necessary in this song.
-          She straight up to over this song. No remorse just snatched it and
-          owned it.
-        </p>
-        <h4>Oh No</h4>
-        <p style="line-height: 3;">Extremely catchy. Estelle is a gem.</p>
-        <h4>What You Need</h4>
-        <p style="line-height: 3;">
-          This is such a great song for multiple reasons. 1. The song has great
-          harmonizing. 2. I love the hook. 3. It makes me feel happy.
-        </p>
-        <h4>Vex Oh</h4>
-        <p style="line-height: 3;">
-          “Should of said bye Felicia” that cracked me up. It gives me tropical
-          vibez.
-        </p>
-        <h4>Scared to Death</h4>
-        <p style="line-height: 3;">
-          This gives Electronic, Malibu hills. It gives me surfing with my
-          friends on the shallow side, but we do it because it looks cool.
-          Overall, it gives me inside of Urban Outfitters.
-        </p>
-        <h4>Freefall</h4>
-        <p style="line-height: 3;">
-          The song starts immediately. Intentionally giving the careless,
-          freefall, let go feeling. This is such a good song. I am thoroughly
-          pleased with this song. The runs and notes are beautiful. It’s
-          overwhelming, in the most beautiful way.
-        </p>
-        <h4>Culture</h4>
-        <p style="line-height: 3;">
-          The rustic beat and the smooth voice just goes great together. I don’t
-          want to sound redundant, but the song is florid, high-sounding,
-          magniloquent and all of the above. It feels like I have honest stepped
-          into Heaven while someone was performing. Like oh okay a heavenly
-          concert? Bet.
-        </p>
-        <h4>The Worst In Me</h4>
-        <p style="line-height: 3;">
-          Respect Tinashe. She is such a talented woman. The bells, her voice,
-          the entire song just makes me feel… Positive. EVEN THOUGH IT’S A
-          BREAKUP SONG.
-        </p>
-        <h4>September 21st</h4>
-        <p style="line-height: 3;">
-          Gives me that dancing in your own world while everybody else watches
-          but you don’t care. This gives me “I’m on another dimension right
-          now”. This gives me cosmic relaxation. Just two galaxies just
-          existing, having a good ole chat.
-        </p>
-        <h4>Midsection</h4>
-        <p style="line-height: 3;">
-          Icons and legendddssssssssss! Pharrell was in this song and all I had
-          to do was say OOOOOP. I love it, you don’t even have to play it.
-        </p>
-        <br />
-
-        <p style="line-height: 3;">
-          Kaytranada has contributed in my love for music. His music opened
-          another chapter into my passion and love for music expressing my
-          emotions. Not only does his music changes the entire aura, but it has
-          a psychological effect to it as well. Kaytranada’s music gave me
-          healthier stress levels, which was proven to help in a 2013 study.
-          Literally, he’s saving my life (seriously, I’m not being dramatic.
-          This is real). Music is a natural way of healing your mental
-          capabilities, and I look at it as medicine. His music defines my
-          personality; optimistic, rare, propitious and etc. Enough of hearing
-          me carry on. Please give this album a listen.
-        </p>
-      </div>
+      </ul>
     </div>
+  </nav>
 
-    <script src="js/scripts.js"></script>
-  </body>
+  <!-- Article Title -->
+  <h1>Album of the Month: December</h1>
+  <h6 class="text-center">
+    December 24th, 2019 9:30AM CST Article by Fantasia Wesley
+  </h6>
+  <!-- Article Content -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h2 style="text-align: center;">BUBBA- Kaytranada</h2>
+
+      <br />
+      <img src="K.png" style="height: 70%; margin-left: 25%;" />
+      <br />
+      <br />
+      <p style="line-height: 3;">
+        This was a hard pick. I was contemplating on if it should be BUBBA or
+        Please Excuse Me For Being Antisocial. The song was just the vibe I
+        needed for this cold and chilly winter in Kansas. I have been able to
+        thoroughly enjoy this album with no skips or no complaints. The song
+        transitions are golden, blending in with the next song in que to play.
+        I love the concept, and the feeling the album gives me. It’s not just
+        music, it’s a mood too. Kaytranada has always given us positive
+        up-tempo music, but the R&B route gives such a vibe. I’m not saying he
+        hasn’t done R&B music before, but not as much as this current album.
+        He has done great collabs with R&B artist that I loved so much, so it
+        was greatly appreciated. I loved the EP Kaytranada released in 2018
+        titled Nothin Like U, Chances. Also, Got it Good from his album 99.9%
+        is lovely.
+      </p>
+      <br />
+      <p style="line-height: 3;">
+        The first song that I listened to by Kaytranada was At All, and I was
+        hooked. I had to find out more about this man. Searching on Sound
+        Cloud, iTunes, (at the time Apple Music was not available) Spotify,
+        and YouTube. I tried to listen every song that he released. It was an
+        experience of music that I never imagined to be so good.
+      </p>
+
+      <h2 style="text-align: center;">Songs</h2>
+      <br />
+      <br />
+
+      <h4>DO IT</h4>
+      <p style="line-height: 3;">
+        It gives me Vice City Grand Theft Auto soundtrack vibes. Driving down
+        the California streets like a normal civilian in your freshly stolen
+        car (grand theft auto people, the game). The only bummer is how short
+        the intro is, but it’s no complaints here. I guess less is more.
+      </p>
+      <h4>2 The Music</h4>
+      <p style="line-height: 3;">
+        Iman Omari has defined R&B and soul to its entirety. This song has
+        definitely been stuck in my head since the album came out. Iman
+        Omari’s raspy but sly voice has this characteristic of being free and
+        at liberty. The bass in the song (the actual instrument) added that
+        flare in the song that made it perfect. The entire song is perfect,
+        especially if you are looking forward to having a good time. This song
+        probably gives others the best memories because it makes you
+        appreciate your surroundings. You’re not as upset as you thought you
+        were. Then the transition into the second portion of the song is just
+        Godly. I kid you not.
+      </p>
+      <h4>Go DJ</h4>
+      <p style="line-height: 3;">
+        I can see a rhythm skater dancing to this song, doing the most
+        outrageous dance moves in my imagination. I can see this being a song
+        Greek Organizations stroll to or a line dance.
+      </p>
+      <h4>Gray Area</h4>
+      <p style="line-height: 3;">
+        This song is catchy; it makes you want to bounce. I knew the voice
+        sounded familiar and come to find out it was Mick Jenkins. I don’t
+        know the exact terminologies of the sound effects in the background,
+        but it all harmonizes perfectly together. I love the pauses he takes
+        in the song; it gives more emphasis.
+      </p>
+      <h4>Puff Lah</h4>
+      <p style="line-height: 3;">
+        MY FAVORITE SONG ON THE ALBUM. I just love this song so much, I want
+        to rap on it, sing on it, dance on it, what ever on it. It’s just a
+        perfect representation of chilling.
+      </p>
+      <h4>10%</h4>
+      <p style="line-height: 3;">
+        You keep on takin from me, but where’s my 10%? Kali Uchis SNAPPED on
+        this record. This is a slap. Do I understand the song? Not really, but
+        it’s all good.
+      </p>
+      <h4>Need It</h4>
+      <p style="line-height: 3;">
+        This makes me want to do Zaouli. The second-best song on this album.
+        This is simply a bop. Again, the song is soooo short, I wish this one
+        had some length to it.
+      </p>
+      <h4>Taste</h4>
+      <p style="line-height: 3;">
+        VanJess came through with message! If you want a taste, bring
+        something to the plate! She hit all the notes necessary in this song.
+        She straight up to over this song. No remorse just snatched it and
+        owned it.
+      </p>
+      <h4>Oh No</h4>
+      <p style="line-height: 3;">Extremely catchy. Estelle is a gem.</p>
+      <h4>What You Need</h4>
+      <p style="line-height: 3;">
+        This is such a great song for multiple reasons. 1. The song has great
+        harmonizing. 2. I love the hook. 3. It makes me feel happy.
+      </p>
+      <h4>Vex Oh</h4>
+      <p style="line-height: 3;">
+        “Should of said bye Felicia” that cracked me up. It gives me tropical
+        vibez.
+      </p>
+      <h4>Scared to Death</h4>
+      <p style="line-height: 3;">
+        This gives Electronic, Malibu hills. It gives me surfing with my
+        friends on the shallow side, but we do it because it looks cool.
+        Overall, it gives me inside of Urban Outfitters.
+      </p>
+      <h4>Freefall</h4>
+      <p style="line-height: 3;">
+        The song starts immediately. Intentionally giving the careless,
+        freefall, let go feeling. This is such a good song. I am thoroughly
+        pleased with this song. The runs and notes are beautiful. It’s
+        overwhelming, in the most beautiful way.
+      </p>
+      <h4>Culture</h4>
+      <p style="line-height: 3;">
+        The rustic beat and the smooth voice just goes great together. I don’t
+        want to sound redundant, but the song is florid, high-sounding,
+        magniloquent and all of the above. It feels like I have honest stepped
+        into Heaven while someone was performing. Like oh okay a heavenly
+        concert? Bet.
+      </p>
+      <h4>The Worst In Me</h4>
+      <p style="line-height: 3;">
+        Respect Tinashe. She is such a talented woman. The bells, her voice,
+        the entire song just makes me feel… Positive. EVEN THOUGH IT’S A
+        BREAKUP SONG.
+      </p>
+      <h4>September 21st</h4>
+      <p style="line-height: 3;">
+        Gives me that dancing in your own world while everybody else watches
+        but you don’t care. This gives me “I’m on another dimension right
+        now”. This gives me cosmic relaxation. Just two galaxies just
+        existing, having a good ole chat.
+      </p>
+      <h4>Midsection</h4>
+      <p style="line-height: 3;">
+        Icons and legendddssssssssss! Pharrell was in this song and all I had
+        to do was say OOOOOP. I love it, you don’t even have to play it.
+      </p>
+      <br />
+
+      <p style="line-height: 3;">
+        Kaytranada has contributed in my love for music. His music opened
+        another chapter into my passion and love for music expressing my
+        emotions. Not only does his music changes the entire aura, but it has
+        a psychological effect to it as well. Kaytranada’s music gave me
+        healthier stress levels, which was proven to help in a 2013 study.
+        Literally, he’s saving my life (seriously, I’m not being dramatic.
+        This is real). Music is a natural way of healing your mental
+        capabilities, and I look at it as medicine. His music defines my
+        personality; optimistic, rare, propitious and etc. Enough of hearing
+        me carry on. Please give this album a listen.
+      </p>
+    </div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
